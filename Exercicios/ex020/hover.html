@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       } 
+
+       div > p{
+        /*Esse comando diz que a  DIV tem um filhp, um paragrafo dentro dela, e esse paragrafo vi ficar escondido.*/
+        display: none;
+       }
+
+       div:hover > p{
+        /*Esse comando diz que quando eu passar o mouse no texto da DIV, o filho escondido vai aprecer.*/
+        display: block;
+       }
+
+    
+       div:hover{ 
+        /*Esse comando fala que o texto da div vai sweer brown, quando o mouse passar por cima.*/
+        color: brown;
+       }
+    </style>
+</head>
+<body>
+    <h1>Exemplo</h1>
+    <p>Passe o mouse sobre o texto abixo</p>
+    <div>Passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+</body>
+</html>

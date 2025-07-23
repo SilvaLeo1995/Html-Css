@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+       
+       /*
+       SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            /*Configuração genérica do link - PSEUDO-CLASSE*/ 
+            color: brown;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:visited{
+            /*Configuração se o link já foi visitado. - PSEUDO-CLASSE*/
+            color: crimson;
+        }
+
+        a:hover{
+            /*Configuração para quando mouse oassar pelo kink, ekle fique sublinhado. - PSEUDO-CLASSE*/
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Github</a></li>
+    </ul>
+</body>
+</html>
